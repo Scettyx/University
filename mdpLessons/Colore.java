@@ -1,7 +1,11 @@
 public class Colore {
-
+    @SuppressWarnings("unused")
     private int r;
+
+    @SuppressWarnings("unused")
     private int g;
+
+    @SuppressWarnings("unused")
     private int b;
 
     public static final Colore BIANCO = new Colore(255, 255, 255);
