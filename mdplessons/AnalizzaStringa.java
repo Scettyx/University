@@ -6,11 +6,11 @@ public class AnalizzaStringa {
     }
 
     public int lunghezza() {
-        return this.testo.length();
+        return testo.length();
     }
 
     public char iesimoCarattere(int i) {
-        return this.testo.charAt(i);
+        return testo.charAt(i);
     }
 
     public char primoCarattere() {
@@ -22,11 +22,11 @@ public class AnalizzaStringa {
     }
 
     public String maiuscolo() {
-        return this.testo.toUpperCase();
+        return testo.toUpperCase();
     }
 
     public String minuscolo() {
-        return this.testo.toLowerCase();
+        return testo.toLowerCase();
     }
 
     public static void main(String[] args) {

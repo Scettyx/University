@@ -1,14 +1,11 @@
 public class Programmatore {
-    private String nome;
-    private String cognome;
-    private String azienda;
-    private String linguaggi;
+    private String nome, cognome, azienda, linguaggi;
 
     public Programmatore(String nome, String cognome) {
         this.nome = nome;
         this.cognome = cognome;
-        this.azienda = "";
-        this.linguaggi = "";
+        azienda = "";
+        linguaggi = "";
     }
     
     public void setAzienda(String azienda) {
@@ -16,27 +13,27 @@ public class Programmatore {
     }
 
     public void addLinguaggio(String linguaggio) {
-        if (this.linguaggi.isEmpty()) {
-            this.linguaggi = linguaggio;
+        if (linguaggi.isEmpty()) {
+            linguaggi = linguaggio;
         } else {
-            this.linguaggi += " " + linguaggio;
+            linguaggi += " " + linguaggio;
         }
     }
 
     public String getNome() {
-        return this.nome;
+        return nome;
     }
 
     public String getCognome() {
-        return this.cognome;
+        return cognome;
     }
 
     public String getAzienda() {
-        return this.azienda;
+        return azienda;
     }
 
     public String getLinguaggi() {
-        return this.linguaggi;
+        return linguaggi;
     }
 
     public static void main(String[] args) {

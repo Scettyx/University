@@ -1,9 +1,5 @@
 public class Rettangolo {
-
-    private int x;
-    private int y;
-    private int larghezza;
-    private int altezza;
+    private int x, y, larghezza, altezza;
     private Colore colore;
 
     public Rettangolo(int x, int y, int larghezza, int altezza) {
@@ -11,12 +7,12 @@ public class Rettangolo {
         this.y = y;
         this.larghezza = larghezza;
         this.altezza = altezza;
-        this.colore = Colore.NERO;
+        colore = Colore.NERO;
     }
 
-    public void Trasla(int deltaX, int deltaY) {
-        this.x += deltaX;
-        this.y += deltaY;
+    public void trasla(int deltaX, int deltaY) {
+        x += deltaX;
+        y += deltaY;
     }
 
     public void setColore(Colore colore) {
@@ -24,19 +20,19 @@ public class Rettangolo {
     }
 
     public Colore getColore() {
-        return this.colore;
+        return colore;
     }
 
     @Override
     public String toString() {
-        int x2 = this.x + this.larghezza;
-        int y2 = this.y + this.altezza;
-        return "(%s, %s) -> (%s, %s)".formatted(this.x, this.y, x2, y2);
+        int x2 = x + larghezza;
+        int y2 = y + altezza;
+        return "(%s, %s) -> (%s, %s)".formatted(x, y, x2, y2);
     }
     
     public static void main(String[] args) {
         Rettangolo r = new Rettangolo(0, 0, 10, 20);
-        r.Trasla(10, 5);
+        r.trasla(10, 5);
         System.out.println(r.toString());
     }
 }
