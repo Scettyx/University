@@ -17,9 +17,9 @@ public class Matrice {
     public static void main(String[] args) {
         Matrice mat = new Matrice(4);
 
-        for (int i = 0; i < mat.matrice.length; i++) {
-            for (int j = 0; j < mat.matrice.length; j++) {
-                System.out.print(String.format("%d\t", mat.matrice[i][j]));
+        for (int[] riga : mat.matrice) {
+            for (int valore : riga) {
+                System.out.print(String.format("%d\t", valore));
             }
             System.out.println();
         }
