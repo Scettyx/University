@@ -1,3 +1,5 @@
+package lab05;
+
 import java.util.Random;
 
 public class EstrazioneDelLotto {

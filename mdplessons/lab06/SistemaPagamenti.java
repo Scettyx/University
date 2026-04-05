@@ -1,3 +1,5 @@
+package lab06;
+
 public class SistemaPagamenti {
     private MetodoPagamento[] metodi;
     private int conteggio;

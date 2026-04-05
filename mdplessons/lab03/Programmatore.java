@@ -1,3 +1,5 @@
+package lab03;
+
 public class Programmatore {
     private String nome, cognome, azienda, linguaggi;
 

@@ -1,3 +1,5 @@
+package lab04;
+
 public class IstogrammaOrr {
     private int min, max;
     private int[] values;

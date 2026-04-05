@@ -1,3 +1,5 @@
+package lab06;
+
 public class CartaDiCredito extends MetodoPagamento {
     private double limite;
 

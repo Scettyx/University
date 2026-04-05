@@ -1,3 +1,5 @@
+package lab05;
+
 public class Token {
     public static int contaToken(String text, String w) {
         if (text == null || w == null || w.isEmpty()) return 0;

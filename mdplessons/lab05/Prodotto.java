@@ -1,3 +1,5 @@
+package lab05;
+
 public abstract class Prodotto {
     private double prezzo;
     private String id;

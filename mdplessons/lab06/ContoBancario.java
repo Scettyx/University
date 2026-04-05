@@ -1,3 +1,5 @@
+package lab06;
+
 public class ContoBancario extends MetodoPagamento {
     public ContoBancario(String intestatario, double saldo) {
         super(intestatario, saldo);

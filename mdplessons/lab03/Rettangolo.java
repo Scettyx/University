@@ -1,3 +1,5 @@
+package lab03;
+
 public class Rettangolo {
     private int x, y, larghezza, altezza;
     private Colore colore;

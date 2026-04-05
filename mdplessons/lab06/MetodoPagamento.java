@@ -1,3 +1,5 @@
+package lab06;
+
 public abstract class MetodoPagamento {
     protected String intestatario;
     protected double saldo;

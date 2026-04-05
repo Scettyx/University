@@ -1,3 +1,5 @@
+package lab05;
+
 public class Main {
     public static void stampa(Figura f) {
         System.out.println(f.area());

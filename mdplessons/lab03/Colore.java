@@ -1,3 +1,5 @@
+package lab03;
+
 public class Colore {
     @SuppressWarnings("unused")
     private int r;

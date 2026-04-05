@@ -1,3 +1,5 @@
+package lab05;
+
 public class DistributoreAutomatico {
     private Prodotto[] prodotti;
     private double saldo;

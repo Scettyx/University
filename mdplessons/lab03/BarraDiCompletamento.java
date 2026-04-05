@@ -1,3 +1,5 @@
+package lab03;
+
 public class BarraDiCompletamento {
 
     private double percentuale;

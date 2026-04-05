@@ -1,3 +1,5 @@
+package lab04;
+
 import java.util.Arrays;
 
 public class Sequenza {

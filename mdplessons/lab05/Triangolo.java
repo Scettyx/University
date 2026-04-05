@@ -1,3 +1,5 @@
+package lab05;
+
 public class Triangolo extends Figura {
     private int base, altezza;
 

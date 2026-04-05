@@ -1,3 +1,5 @@
+package lab04;
+
 public class Fibonacci {
 
     public static void fibonacci (int a, int b, int N) {

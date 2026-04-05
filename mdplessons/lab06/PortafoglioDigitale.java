@@ -1,3 +1,5 @@
+package lab06;
+
 public class PortafoglioDigitale extends MetodoPagamento {
     private double percentualeCashback;
 

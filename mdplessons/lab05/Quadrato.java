@@ -1,3 +1,5 @@
+package lab05;
+
 public class Quadrato extends Figura {
     private int lato;
 

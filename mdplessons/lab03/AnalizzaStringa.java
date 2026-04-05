@@ -1,3 +1,5 @@
+package lab03;
+
 public class AnalizzaStringa {
     private String testo;
 
