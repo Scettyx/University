@@ -1,8 +1,8 @@
 package lab08;
 
 public class SuccessioneFibonacci implements Successione {
-    private int a = 1;
-    private int b = 0;
+    private int a = 0;
+    private int b = 1;
 
     @Override
     public int next() {
