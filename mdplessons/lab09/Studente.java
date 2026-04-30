@@ -11,36 +11,22 @@ public class Studente implements Comparable<Studente> {
         this.media = media;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public String getCognome() {
-        return cognome;
-    }
-
-    public double getMedia() {
-        return media;
-    }
+    public String getNome() { return nome; }
+    public String getCognome() { return cognome; }
+    public double getMedia() { return media; }
     
     @Override
     public String toString() {
-        return "Studente [" + nome + " " + cognome + " - Media: " + media + "]";
+        return nome + " " + cognome + " (Media: " + media + ")";
     }
 
     @Override
     public int compareTo(Studente altro) {
         int confrontoMedia = Double.compare(altro.media, this.media);
-
-        if (confrontoMedia != 0) {
-            return confrontoMedia;
-        }
+        if (confrontoMedia != 0) return confrontoMedia;
 
         int confrontoCognome = this.cognome.compareTo(altro.cognome);
-
-        if (confrontoCognome != 0) {
-            return confrontoCognome;
-        }
+        if (confrontoCognome != 0) return confrontoCognome;
 
         return this.nome.compareTo(altro.nome);
     }

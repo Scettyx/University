@@ -5,21 +5,20 @@ import java.util.Random;
 
 public class SuccessioneCasuale implements Iterable<Integer> {
 
+    @Override
     public Iterator<Integer> iterator() {
-        return new IteratoreCasuale();
-    }
-
-    private class IteratoreCasuale implements Iterator<Integer> {
-        private Random random = new Random();
+        return new Iterator<Integer>() {
+            private Random random = new Random();
         
-        @Override
-        public boolean hasNext() {
-            return true;
-        }
+            @Override
+            public boolean hasNext() {
+                return true;
+            }
     
-        @Override
-        public Integer next() {
-            return random.nextInt(100);
-        }
+            @Override
+            public Integer next() {
+                return random.nextInt(100);
+            }
+        };
     }
 }
