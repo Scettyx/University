@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Tabellone {
     private Casella[] caselle;
+    @SuppressWarnings("unused")
     private Giocatore[] giocatori;
     private int dimensione;
 

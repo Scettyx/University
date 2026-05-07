@@ -1,6 +1,7 @@
 package lab08;
 
 public class CreditCard implements PaymentMethod, Refundable {
+    @SuppressWarnings("unused")
     private String cardNumber;
     private double balance;
 

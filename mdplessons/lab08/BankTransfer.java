@@ -1,10 +1,11 @@
 package lab08;
 
 public class BankTransfer implements PaymentMethod {
-    private int iban;
+    @SuppressWarnings("unused")
+    private String iban;
     private double dailyLimit;
 
-    public BankTransfer(int iban, double dailyLimit) {
+    public BankTransfer(String iban, double dailyLimit) {
         this.iban = iban;
         this.dailyLimit = dailyLimit;
     }
